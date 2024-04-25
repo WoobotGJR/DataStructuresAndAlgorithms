@@ -1,6 +1,6 @@
 package org.woobolt.algorithms;
 
-import DataStructures.UnorderedArray;
+import org.woobolt.data_structures.array.UnorderedArray;
 
 import java.beans.JavaBean;
 

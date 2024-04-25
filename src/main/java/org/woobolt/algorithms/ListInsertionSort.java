@@ -1,7 +1,7 @@
 package org.woobolt.algorithms;
 
-import org.woobolt.linked_list.LinkedListNode;
-import org.woobolt.linked_list.SortedLinkedList;
+import org.woobolt.data_structures.linked_list.LinkedListNode;
+import org.woobolt.data_structures.linked_list.SortedLinkedList;
 
 import java.util.stream.Stream;
 
