@@ -26,7 +26,7 @@ public class BinarySearch {
 
 		if (left > right) return -1;
 		
-		int mid = left + (right - left) / 2;
+		int mid =  (right + left) / 2;
 		
 		if (arr[mid] == value) return mid;
 		
