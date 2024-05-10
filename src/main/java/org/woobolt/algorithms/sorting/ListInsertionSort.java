@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.sorting;
 
 import org.woobolt.data_structures.linked_list.LinkedListNode;
 import org.woobolt.data_structures.linked_list.SortedLinkedList;

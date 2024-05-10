@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.arifmetics.stack_based;
 
 import java.util.Stack;
 

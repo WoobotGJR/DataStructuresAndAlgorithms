@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.exercises;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.search;
 
 public class LinearSearch<T> {
 

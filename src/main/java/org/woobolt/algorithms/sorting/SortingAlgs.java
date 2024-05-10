@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;

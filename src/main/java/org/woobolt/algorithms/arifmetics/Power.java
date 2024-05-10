@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.arifmetics;
 
 import java.time.Duration;
 import java.time.Instant;

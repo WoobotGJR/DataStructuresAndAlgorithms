@@ -1,4 +1,4 @@
-package org.woobolt.algorithms;
+package org.woobolt.algorithms.exercises;
 
 public class ModifiedHanoiTower {
     public static void main(String[] args) {
