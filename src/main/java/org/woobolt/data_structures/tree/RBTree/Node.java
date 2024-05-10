@@ -1,4 +1,4 @@
-package org.woobolt.data_structures.binary_tree.RBTree;
+package org.woobolt.data_structures.tree.RBTree;
 
 class Node {
     int data; // Значение узла

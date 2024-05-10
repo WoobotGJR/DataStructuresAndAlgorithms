@@ -1,4 +1,4 @@
-package org.woobolt.data_structures.binary_tree;
+package org.woobolt.data_structures.tree.binary_tree;
 
 
 class Node

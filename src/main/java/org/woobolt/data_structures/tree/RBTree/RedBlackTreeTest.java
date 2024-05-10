@@ -1,4 +1,4 @@
-package org.woobolt.data_structures.binary_tree.RBTree;
+package org.woobolt.data_structures.tree.RBTree;
 
 public class RedBlackTreeTest {
     public static void main(String[] args) {
