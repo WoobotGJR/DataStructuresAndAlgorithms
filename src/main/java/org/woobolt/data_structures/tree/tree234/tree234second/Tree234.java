@@ -1,10 +1,10 @@
 package org.woobolt.data_structures.tree.tree234.tree234second;
 
-class Three234 {
+class Tree234 {
     Node root;
     int t; // минимальная степень дерева
 
-    Three234(int t) {
+    Tree234(int t) {
         this.root = null;
         this.t = t;
     }

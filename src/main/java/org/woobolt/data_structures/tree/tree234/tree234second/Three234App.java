@@ -1,8 +1,8 @@
 package org.woobolt.data_structures.tree.tree234.tree234second;
 
-public class Three234App {
+public class Tree234App {
     public static void main(String[] args) {
-        Three234 tree = new Three234(3);
+        Tree234 tree = new Tree234(3);
 
         tree.insert(10);
         tree.insert(20);
