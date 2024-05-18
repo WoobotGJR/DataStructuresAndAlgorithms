@@ -1,6 +1,6 @@
 package org.woobolt.data_structures.queue;
 
-import org.woobolt.data_structures.linked_list.DoubleSideLinkedList;
+import org.woobolt.data_structures.linkedlist.DoubleSideLinkedList;
 
 public class LinkedListBasedQueue {
     private DoubleSideLinkedList doubleLinkedList;

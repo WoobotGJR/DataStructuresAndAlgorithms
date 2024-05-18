@@ -1,6 +1,6 @@
 package org.woobolt.algorithms.sorting;
 
-import org.woobolt.data_structures.linked_list.LinkedListNode;
+import org.woobolt.data_structures.linkedlist.LinkedListNode;
 
 import java.util.Arrays;
 

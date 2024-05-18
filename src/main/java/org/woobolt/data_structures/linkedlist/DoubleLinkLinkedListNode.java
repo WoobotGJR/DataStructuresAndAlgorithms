@@ -1,4 +1,4 @@
-package org.woobolt.data_structures.linked_list;
+package org.woobolt.data_structures.linkedlist;
 
 public class DoubleLinkLinkedListNode {
     public int value;

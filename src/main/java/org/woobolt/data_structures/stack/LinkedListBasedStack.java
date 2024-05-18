@@ -1,6 +1,6 @@
 package org.woobolt.data_structures.stack;
 
-import org.woobolt.data_structures.linked_list.LinkedList;
+import org.woobolt.data_structures.linkedlist.LinkedList;
 
 public class LinkedListBasedStack {
     private LinkedList<Integer> linkedList;

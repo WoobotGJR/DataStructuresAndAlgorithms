@@ -5,7 +5,7 @@ package org.woobolt.data_structures.tree.RBTree;
 
 // Создаем класс красно-черного дерева
 public class RedBlackTree {
-    Node root; // Корневой узел дерева
+    public Node root; // Корневой узел дерева
 
     // Конструктор для создания пустого дерева
     public RedBlackTree() {
@@ -138,6 +138,63 @@ public class RedBlackTree {
         }
         y.right = x; // x становится правым дочерним узлом y
         x.parent = y; // y становится родителем x
+    }
+    // Метод для удаления узла с заданным значением
+
+    public void deleteNode(Node node) {
+        Node y = node;
+        Node x;
+        int originalColor = y.color;
+
+        if (node.left == null) {
+            x = node.right;
+            transplant(node, node.right);
+        } else if (node.right == null) {
+            x = node.left;
+            transplant(node, node.left);
+        } else {
+            y = findMinNode(node.right);
+            originalColor = y.color;
+            x = y.right;
+            if (y.parent == node) {
+                if (x != null) {
+                    x.parent = y;
+                }
+            } else {
+                transplant(y, y.right);
+                y.right = node.right;
+                y.right.parent = y;
+            }
+            transplant(node, y);
+            y.left = node.left;
+            y.left.parent = y;
+            y.color = node.color;
+        }
+
+        if (originalColor == 0) {
+            fixViolations(x);
+        }
+    }
+
+    private void transplant(Node u, Node v) {
+        if (u.parent == null) {
+            root = v;
+        } else if (u == u.parent.left) {
+            u.parent.left = v;
+        } else {
+            u.parent.right = v;
+        }
+        if (v != null) {
+            v.parent = u.parent;
+        }
+    }
+
+    private Node findMinNode(Node node) {
+        Node current = node;
+        while (current.left != null) {
+            current = current.left;
+        }
+        return current;
     }
 
     public void printTree() {

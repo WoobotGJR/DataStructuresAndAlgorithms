@@ -1,9 +1,9 @@
 package org.woobolt.data_structures.tree.RBTree;
 
-class Node {
-    int data; // Значение узла
+public class Node {
+    public int data; // Значение узла
     Node parent; // Родительский узел
-    Node left; // Левый дочерний узел
+    public Node left; // Левый дочерний узел
     Node right; // Правый дочерний узел
     int color; // Цвет узла (0 - черный, 1 - красный)
 
